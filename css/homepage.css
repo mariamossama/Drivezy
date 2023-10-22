@@ -1,0 +1,99 @@
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    
+   
+    background-image: url('https://i.pinimg.com/564x/59/8b/62/598b6207bd9367f8cd8fd35c2b2ae991.jpg');
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+
+
+.container
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    
+}
+
+@media (min-width: 768px) 
+{
+    .container
+    {
+        width:750px;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .container
+    {
+        width:970px;
+    }
+
+}
+
+@media(min-width: 1200px)
+{
+    .container
+    {
+        width : 1170px;
+    }
+
+}
+
+
+.header
+{
+    padding: 20px;
+    background-color: black;
+}
+
+.header .container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+  }
+
+.links nav a 
+{
+    color:  #C0C0C0;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.intro
+{
+    width: 50%; /* Adjust the width as needed */
+    margin: 70px auto; /* This centers the element horizontally */
+    
+}
+.intro .intro-text
+{
+    font-family: sans-serif;
+   
+}
+.intro .intro-text .agencyName
+{
+    font-weight: bold;
+    
+}
+
